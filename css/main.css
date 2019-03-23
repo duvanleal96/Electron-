@@ -1,0 +1,78 @@
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+img {
+	width: 28%;
+	height: 30%;
+	margin-right: 50px;
+}
+
+footer{
+	background-color:  #333;
+  	position: absolute;
+  	bottom: 5px;
+  	width: 99%;
+  	height: 40px;
+  	color: white;
+  	margin-top: -3px;
+}
+
+.titulo {
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.link {
+	 text-decoration: none;
+	 color: #333;
+}
+
+.conocimiento {
+	margin-left: 5%;
+}
+
+.conocimiento img {
+	width: 200px;
+	height: 150px;
+}
+
+.der {
+	margin-right: 100px;
+}
+
+.izq {
+	margin-left: 250px;
+}
+
+.imagen-proyecto{
+	height: 5%;
+	width: 5%;
+}
